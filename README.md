@@ -13,6 +13,7 @@
     -p 14268:14268 \
     -p 9411:9411 \
    jaegertracing/all-in-one:lates 
+   
    容器启动后可以通过访问：http://localhost:16686/来查看jaeger_ui界面
    
    // start api server
